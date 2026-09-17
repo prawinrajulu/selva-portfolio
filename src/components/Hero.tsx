@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="relative max-w-[1120px] mx-auto px-margin-mobile lg:px-margin pt-12 pb-20 w-full">
+    <section className="relative max-w-280 mx-auto px-margin-mobile lg:px-margin pt-12 pb-20 w-full">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
         {/* Left 7 Cols: Identity & Pitch */}
         <div className="lg:col-span-7 flex flex-col items-start gap-space-md">

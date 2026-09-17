@@ -79,7 +79,7 @@ export default function Navbar() {
 
   return (
     <header className="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-md border-b border-outline-variant/30">
-      <div className="h-16 max-w-[1120px] mx-auto px-margin-mobile lg:px-margin flex items-center justify-between gap-space-md">
+      <div className="h-16 max-w-280 mx-auto px-margin-mobile lg:px-margin flex items-center justify-between gap-space-md">
         {/* Brand */}
         <div className="flex items-center gap-space-sm">
           <a

@@ -10,7 +10,7 @@ export default function Footer() {
 
   return (
     <footer className="w-full bg-surface-container-lowest border-t border-outline-variant/30 py-space-xl">
-      <div className="max-w-[1120px] mx-auto px-margin-mobile lg:px-margin flex flex-col md:flex-row items-start md:items-center justify-between gap-space-lg">
+      <div className="max-w-280 mx-auto px-margin-mobile lg:px-margin flex flex-col md:flex-row items-start md:items-center justify-between gap-space-lg">
         {/* Branding & Attribution */}
         <div className="flex flex-col gap-space-xs">
           <div className="flex items-center gap-space-xs">

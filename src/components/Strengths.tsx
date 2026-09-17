@@ -28,12 +28,12 @@ export default function Strengths() {
   ];
 
   return (
-    <section className="max-w-[1120px] mx-auto px-margin-mobile lg:px-margin py-space-xl w-full">
+    <section className="max-w-280 mx-auto px-margin-mobile lg:px-margin py-space-xl w-full">
       {/* Section Header */}
       <div className="flex flex-col gap-space-xs mb-8">
         <div className="flex items-center gap-2">
           <span className="font-code-sm text-code-sm text-primary font-bold">07 // PROFESSIONAL ATTRIBUTES</span>
-          <div className="h-[1px] w-12 bg-outline-variant/60" />
+          <div className="h-px w-12 bg-outline-variant/60" />
         </div>
         <h2 className="font-headline-xl text-headline-xl tracking-tight text-on-surface">Strengths</h2>
         <p className="font-body-md text-body-md text-secondary">Personal and professional workplace qualities</p>

@@ -1,11 +1,11 @@
 export default function Certifications() {
   return (
-    <section className="max-w-[1120px] mx-auto px-margin-mobile lg:px-margin py-space-xl w-full" id="certifications">
+    <section className="max-w-280 mx-auto px-margin-mobile lg:px-margin py-space-xl w-full" id="certifications">
       {/* Section Header */}
       <div className="flex flex-col gap-space-xs mb-8">
         <div className="flex items-center gap-2">
           <span className="font-code-sm text-code-sm text-primary font-bold">05 // VERIFIED LEARNING</span>
-          <div className="h-[1px] w-12 bg-outline-variant/60" />
+          <div className="h-px w-12 bg-outline-variant/60" />
         </div>
         <h2 className="font-headline-xl text-headline-xl tracking-tight text-on-surface">Certifications</h2>
         <p className="font-body-md text-body-md text-secondary">Strictly verified curriculum credentials</p>

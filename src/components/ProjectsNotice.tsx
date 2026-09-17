@@ -1,9 +1,9 @@
 export default function ProjectsNotice() {
   return (
-    <section className="max-w-[1120px] mx-auto px-margin-mobile lg:px-margin py-space-md w-full">
+    <section className="max-w-280 mx-auto px-margin-mobile lg:px-margin py-space-md w-full">
       <div className="bg-surface-container-low p-space-lg rounded-xl shadow-sm flex flex-col md:flex-row items-center justify-between gap-4 border border-outline-variant/30">
         <div className="flex items-center gap-4">
-          <div className="w-10 h-10 rounded-full bg-primary-fixed-dim text-on-primary-fixed flex items-center justify-center flex-shrink-0">
+          <div className="w-10 h-10 rounded-full bg-primary-fixed-dim text-on-primary-fixed flex items-center justify-center shrink-0">
             <span className="material-symbols-outlined text-[22px]">construction</span>
           </div>
           <div>
@@ -16,7 +16,7 @@ export default function ProjectsNotice() {
           </div>
         </div>
 
-        <div className="flex items-center gap-2 font-code-sm text-code-sm text-primary font-semibold flex-shrink-0">
+        <div className="flex items-center gap-2 font-code-sm text-code-sm text-primary font-semibold shrink-0">
           <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
           <span>Deployment In Progress</span>
         </div>

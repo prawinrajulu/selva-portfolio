@@ -1,11 +1,11 @@
 export default function Experience() {
   return (
-    <section className="max-w-[1120px] mx-auto px-margin-mobile lg:px-margin py-space-xl w-full" id="experience">
+    <section className="max-w-280 mx-auto px-margin-mobile lg:px-margin py-space-xl w-full" id="experience">
       {/* Section Header */}
       <div className="flex flex-col gap-space-xs mb-8">
         <div className="flex items-center gap-2">
           <span className="font-code-sm text-code-sm text-primary font-bold">03 // PRACTICAL EXPERIENCE</span>
-          <div className="h-[1px] w-12 bg-outline-variant/60" />
+          <div className="h-px w-12 bg-outline-variant/60" />
         </div>
         <h2 className="font-headline-xl text-headline-xl tracking-tight text-on-surface">Experience</h2>
         <p className="font-body-md text-body-md text-secondary">
@@ -16,8 +16,8 @@ export default function Experience() {
       {/* Experience Timeline Card */}
       <div className="relative pl-6 sm:pl-8">
         {/* Visual Rail Indicator */}
-        <div className="absolute left-0 top-0 bottom-0 w-[2px] bg-secondary-container" />
-        <div className="absolute -left-[5px] top-4 w-3 h-3 rounded-full bg-primary ring-4 ring-surface" />
+        <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-secondary-container" />
+        <div className="absolute -left-1.25 top-4 w-3 h-3 rounded-full bg-primary ring-4 ring-surface" />
 
         <div className="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">

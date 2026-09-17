@@ -15,14 +15,14 @@ export default function Contact() {
   };
 
   return (
-    <section className="max-w-[1120px] mx-auto px-margin-mobile lg:px-margin py-space-xl w-full mb-12" id="contact">
+    <section className="max-w-280 mx-auto px-margin-mobile lg:px-margin py-space-xl w-full mb-12" id="contact">
       <div className="bg-surface-container-lowest p-space-lg sm:p-space-xl rounded-xl shadow-md">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
           {/* Left 7 Cols */}
           <div className="lg:col-span-7 flex flex-col gap-space-sm">
             <div className="flex items-center gap-2">
               <span className="font-code-sm text-code-sm text-primary font-bold">08 // OPPORTUNITIES</span>
-              <div className="h-[1px] w-12 bg-outline-variant/60" />
+              <div className="h-px w-12 bg-outline-variant/60" />
             </div>
             <h2 className="font-headline-xl text-headline-xl text-on-surface tracking-tight">Let&apos;s Connect</h2>
             <p className="font-body-lg text-body-lg text-on-surface-variant">

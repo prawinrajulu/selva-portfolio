@@ -1,6 +1,6 @@
 export default function Languages() {
   return (
-    <section className="max-w-[1120px] mx-auto px-margin-mobile lg:px-margin py-space-lg w-full">
+    <section className="max-w-280 mx-auto px-margin-mobile lg:px-margin py-space-lg w-full">
       <div className="bg-surface-container p-space-lg rounded-xl shadow-sm flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
           <h3 className="font-headline-md text-headline-md text-on-surface">Languages</h3>
