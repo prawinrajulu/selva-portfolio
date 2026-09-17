@@ -1,15 +1,29 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <section className="relative max-w-280 mx-auto px-margin-mobile lg:px-margin pt-12 pb-20 w-full">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
         {/* Left 7 Cols: Identity & Pitch */}
         <div className="lg:col-span-7 flex flex-col items-start gap-space-md">
-          {/* Recruiter Eyebrow Badge */}
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary-container text-on-secondary-fixed shadow-sm">
-            <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-            <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">
-              Final Year B.Tech IT Student
-            </span>
+          {/* Profile Photo & Recruiter Eyebrow Badge */}
+          <div className="flex items-center gap-3">
+            <div className="relative w-14 h-14 sm:w-16 sm:h-16 rounded-full overflow-hidden border-2 border-primary shadow-sm shrink-0">
+              <Image
+                src="/selvendran.jpg"
+                alt="Selvendran M"
+                fill
+                sizes="64px"
+                className="object-cover"
+                priority
+              />
+            </div>
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary-container text-on-secondary-fixed shadow-sm">
+              <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
+              <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">
+                Final Year B.Tech IT Student
+              </span>
+            </div>
           </div>
 
           {/* Headings */}

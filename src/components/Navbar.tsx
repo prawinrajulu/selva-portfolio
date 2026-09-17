@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 const NAV_ITEMS = [
   { name: "Home", href: "#", id: "home" },
@@ -146,9 +147,15 @@ export default function Navbar() {
             </span>
           </button>
 
-          {/* Avatar Icon */}
-          <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center">
-            <span className="material-symbols-outlined text-on-primary text-[18px]">person</span>
+          {/* Avatar Image */}
+          <div className="w-8 h-8 rounded-full overflow-hidden border border-outline-variant/50 relative bg-primary shrink-0">
+            <Image
+              src="/selvendran.jpg"
+              alt="Selvendran M"
+              fill
+              sizes="32px"
+              className="object-cover"
+            />
           </div>
         </div>
       </div>

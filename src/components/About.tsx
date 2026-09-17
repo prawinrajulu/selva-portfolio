@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function About() {
   return (
     <section className="max-w-280 mx-auto px-margin-mobile lg:px-margin py-space-xl w-full" id="about">
@@ -55,13 +57,27 @@ export default function About() {
         {/* 5 Cols: Compact Institutional Card */}
         <div className="lg:col-span-5 w-full">
           <div className="bg-surface-container-low p-space-lg rounded-xl shadow-sm flex flex-col gap-space-md">
-            <div className="flex items-center justify-between pb-3 border-b border-outline-variant/20">
-              <span className="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-semibold">
-                Institutional Credentials
-              </span>
-              <span className="px-2 py-0.5 rounded-DEFAULT bg-secondary-container text-on-secondary-fixed font-code-sm text-code-sm">
-                2021 – 2025
-              </span>
+            <div className="flex items-center gap-3.5 pb-3 border-b border-outline-variant/20">
+              <div className="relative w-14 h-14 rounded-xl overflow-hidden border border-outline-variant/40 shrink-0 shadow-sm">
+                <Image
+                  src="/selvendran.jpg"
+                  alt="Selvendran M"
+                  fill
+                  sizes="56px"
+                  className="object-cover"
+                />
+              </div>
+              <div className="flex flex-col flex-1 min-w-0">
+                <div className="flex items-center justify-between gap-1">
+                  <span className="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-semibold">
+                    Institutional Credentials
+                  </span>
+                  <span className="px-2 py-0.5 rounded-DEFAULT bg-secondary-container text-on-secondary-fixed font-code-sm text-code-sm shrink-0">
+                    2021 – 2025
+                  </span>
+                </div>
+                <div className="font-headline-sm text-headline-sm text-on-surface truncate">Selvendran M</div>
+              </div>
             </div>
 
             <div className="space-y-4">
